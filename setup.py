@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='UniEval',
+    name='uni_eval',
     version='0.1',
-    packages=find_packages(),
+    packages=['uni_eval'],
     install_requires=[
         'transformers>=4.17.0.dev0',
         'accelerate',
