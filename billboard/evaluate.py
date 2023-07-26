@@ -2,8 +2,8 @@ import sys
 import json
 import argparse
 sys.path.append("..")
-from utils import convert_to_json
-from metric.evaluator import get_evaluator
+from uni_eval.utils import convert_to_json
+from uni_eval.evaluator import get_evaluator
 
 def load_src(src_path):
     src_list = []

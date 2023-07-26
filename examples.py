@@ -1,5 +1,5 @@
-from utils import convert_to_json
-from metric.evaluator import get_evaluator
+from uni_eval.utils import convert_to_json
+from uni_eval.evaluator import get_evaluator
 
 # Example for data-to-text
 task = 'data2text'
